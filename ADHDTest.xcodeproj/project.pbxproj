@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3077C6272584AA2600D5DF92 /* ADHDTestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3077C6262584AA2600D5DF92 /* ADHDTestApp.swift */; };
+		3077C6292584AA2600D5DF92 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3077C6282584AA2600D5DF92 /* ContentView.swift */; };
+		3077C62B2584AA2600D5DF92 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3077C62A2584AA2600D5DF92 /* Assets.xcassets */; };
+		3077C62E2584AA2600D5DF92 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3077C62D2584AA2600D5DF92 /* Preview Assets.xcassets */; };
+		3077C6392584AA2600D5DF92 /* ADHDTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3077C6382584AA2600D5DF92 /* ADHDTestTests.swift */; };
+		3077C6442584AA2600D5DF92 /* ADHDTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3077C6432584AA2600D5DF92 /* ADHDTestUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3077C6352584AA2600D5DF92 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3077C61B2584AA2600D5DF92 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3077C6222584AA2600D5DF92;
+			remoteInfo = ADHDTest;
+		};
+		3077C6402584AA2600D5DF92 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3077C61B2584AA2600D5DF92 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3077C6222584AA2600D5DF92;
+			remoteInfo = ADHDTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3077C6232584AA2600D5DF92 /* ADHDTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ADHDTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3077C6262584AA2600D5DF92 /* ADHDTestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ADHDTestApp.swift; sourceTree = "<group>"; };
+		3077C6282584AA2600D5DF92 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3077C62A2584AA2600D5DF92 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3077C62D2584AA2600D5DF92 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3077C62F2584AA2600D5DF92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3077C6342584AA2600D5DF92 /* ADHDTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ADHDTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3077C6382584AA2600D5DF92 /* ADHDTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ADHDTestTests.swift; sourceTree = "<group>"; };
+		3077C63A2584AA2600D5DF92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3077C63F2584AA2600D5DF92 /* ADHDTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ADHDTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3077C6432584AA2600D5DF92 /* ADHDTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ADHDTestUITests.swift; sourceTree = "<group>"; };
+		3077C6452584AA2600D5DF92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3077C6202584AA2600D5DF92 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3077C6312584AA2600D5DF92 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3077C63C2584AA2600D5DF92 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3077C61A2584AA2600D5DF92 = {
+			isa = PBXGroup;
+			children = (
+				3077C6252584AA2600D5DF92 /* ADHDTest */,
+				3077C6372584AA2600D5DF92 /* ADHDTestTests */,
+				3077C6422584AA2600D5DF92 /* ADHDTestUITests */,
+				3077C6242584AA2600D5DF92 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3077C6242584AA2600D5DF92 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3077C6232584AA2600D5DF92 /* ADHDTest.app */,
+				3077C6342584AA2600D5DF92 /* ADHDTestTests.xctest */,
+				3077C63F2584AA2600D5DF92 /* ADHDTestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3077C6252584AA2600D5DF92 /* ADHDTest */ = {
+			isa = PBXGroup;
+			children = (
+				3077C6262584AA2600D5DF92 /* ADHDTestApp.swift */,
+				3077C6282584AA2600D5DF92 /* ContentView.swift */,
+				3077C62A2584AA2600D5DF92 /* Assets.xcassets */,
+				3077C62F2584AA2600D5DF92 /* Info.plist */,
+				3077C62C2584AA2600D5DF92 /* Preview Content */,
+			);
+			path = ADHDTest;
+			sourceTree = "<group>";
+		};
+		3077C62C2584AA2600D5DF92 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				3077C62D2584AA2600D5DF92 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3077C6372584AA2600D5DF92 /* ADHDTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				3077C6382584AA2600D5DF92 /* ADHDTestTests.swift */,
+				3077C63A2584AA2600D5DF92 /* Info.plist */,
+			);
+			path = ADHDTestTests;
+			sourceTree = "<group>";
+		};
+		3077C6422584AA2600D5DF92 /* ADHDTestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3077C6432584AA2600D5DF92 /* ADHDTestUITests.swift */,
+				3077C6452584AA2600D5DF92 /* Info.plist */,
+			);
+			path = ADHDTestUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3077C6222584AA2600D5DF92 /* ADHDTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3077C6482584AA2600D5DF92 /* Build configuration list for PBXNativeTarget "ADHDTest" */;
+			buildPhases = (
+				3077C61F2584AA2600D5DF92 /* Sources */,
+				3077C6202584AA2600D5DF92 /* Frameworks */,
+				3077C6212584AA2600D5DF92 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ADHDTest;
+			productName = ADHDTest;
+			productReference = 3077C6232584AA2600D5DF92 /* ADHDTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3077C6332584AA2600D5DF92 /* ADHDTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3077C64B2584AA2600D5DF92 /* Build configuration list for PBXNativeTarget "ADHDTestTests" */;
+			buildPhases = (
+				3077C6302584AA2600D5DF92 /* Sources */,
+				3077C6312584AA2600D5DF92 /* Frameworks */,
+				3077C6322584AA2600D5DF92 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3077C6362584AA2600D5DF92 /* PBXTargetDependency */,
+			);
+			name = ADHDTestTests;
+			productName = ADHDTestTests;
+			productReference = 3077C6342584AA2600D5DF92 /* ADHDTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3077C63E2584AA2600D5DF92 /* ADHDTestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3077C64E2584AA2600D5DF92 /* Build configuration list for PBXNativeTarget "ADHDTestUITests" */;
+			buildPhases = (
+				3077C63B2584AA2600D5DF92 /* Sources */,
+				3077C63C2584AA2600D5DF92 /* Frameworks */,
+				3077C63D2584AA2600D5DF92 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3077C6412584AA2600D5DF92 /* PBXTargetDependency */,
+			);
+			name = ADHDTestUITests;
+			productName = ADHDTestUITests;
+			productReference = 3077C63F2584AA2600D5DF92 /* ADHDTestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3077C61B2584AA2600D5DF92 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1210;
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					3077C6222584AA2600D5DF92 = {
+						CreatedOnToolsVersion = 12.1;
+					};
+					3077C6332584AA2600D5DF92 = {
+						CreatedOnToolsVersion = 12.1;
+						TestTargetID = 3077C6222584AA2600D5DF92;
+					};
+					3077C63E2584AA2600D5DF92 = {
+						CreatedOnToolsVersion = 12.1;
+						TestTargetID = 3077C6222584AA2600D5DF92;
+					};
+				};
+			};
+			buildConfigurationList = 3077C61E2584AA2600D5DF92 /* Build configuration list for PBXProject "ADHDTest" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3077C61A2584AA2600D5DF92;
+			productRefGroup = 3077C6242584AA2600D5DF92 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3077C6222584AA2600D5DF92 /* ADHDTest */,
+				3077C6332584AA2600D5DF92 /* ADHDTestTests */,
+				3077C63E2584AA2600D5DF92 /* ADHDTestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3077C6212584AA2600D5DF92 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3077C62E2584AA2600D5DF92 /* Preview Assets.xcassets in Resources */,
+				3077C62B2584AA2600D5DF92 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3077C6322584AA2600D5DF92 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3077C63D2584AA2600D5DF92 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3077C61F2584AA2600D5DF92 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3077C6292584AA2600D5DF92 /* ContentView.swift in Sources */,
+				3077C6272584AA2600D5DF92 /* ADHDTestApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3077C6302584AA2600D5DF92 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3077C6392584AA2600D5DF92 /* ADHDTestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3077C63B2584AA2600D5DF92 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3077C6442584AA2600D5DF92 /* ADHDTestUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3077C6362584AA2600D5DF92 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3077C6222584AA2600D5DF92 /* ADHDTest */;
+			targetProxy = 3077C6352584AA2600D5DF92 /* PBXContainerItemProxy */;
+		};
+		3077C6412584AA2600D5DF92 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3077C6222584AA2600D5DF92 /* ADHDTest */;
+			targetProxy = 3077C6402584AA2600D5DF92 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3077C6462584AA2600D5DF92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3077C6472584AA2600D5DF92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3077C6492584AA2600D5DF92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"ADHDTest/Preview Content\"";
+				DEVELOPMENT_TEAM = D9R6B5C7CY;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = ADHDTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = nolan.ADHDTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3077C64A2584AA2600D5DF92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"ADHDTest/Preview Content\"";
+				DEVELOPMENT_TEAM = D9R6B5C7CY;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = ADHDTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = nolan.ADHDTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3077C64C2584AA2600D5DF92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D9R6B5C7CY;
+				INFOPLIST_FILE = ADHDTestTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = nolan.ADHDTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ADHDTest.app/ADHDTest";
+			};
+			name = Debug;
+		};
+		3077C64D2584AA2600D5DF92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D9R6B5C7CY;
+				INFOPLIST_FILE = ADHDTestTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = nolan.ADHDTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ADHDTest.app/ADHDTest";
+			};
+			name = Release;
+		};
+		3077C64F2584AA2600D5DF92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D9R6B5C7CY;
+				INFOPLIST_FILE = ADHDTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = nolan.ADHDTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ADHDTest;
+			};
+			name = Debug;
+		};
+		3077C6502584AA2600D5DF92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D9R6B5C7CY;
+				INFOPLIST_FILE = ADHDTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = nolan.ADHDTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ADHDTest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3077C61E2584AA2600D5DF92 /* Build configuration list for PBXProject "ADHDTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3077C6462584AA2600D5DF92 /* Debug */,
+				3077C6472584AA2600D5DF92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3077C6482584AA2600D5DF92 /* Build configuration list for PBXNativeTarget "ADHDTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3077C6492584AA2600D5DF92 /* Debug */,
+				3077C64A2584AA2600D5DF92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3077C64B2584AA2600D5DF92 /* Build configuration list for PBXNativeTarget "ADHDTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3077C64C2584AA2600D5DF92 /* Debug */,
+				3077C64D2584AA2600D5DF92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3077C64E2584AA2600D5DF92 /* Build configuration list for PBXNativeTarget "ADHDTestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3077C64F2584AA2600D5DF92 /* Debug */,
+				3077C6502584AA2600D5DF92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3077C61B2584AA2600D5DF92 /* Project object */;
+}
